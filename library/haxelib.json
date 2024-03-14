@@ -1,0 +1,11 @@
+{
+  "name": "omggif",
+  "license": "LGPL",
+  "tags": ["js","extern","gif"],
+  "description": "Haxe externs for `omggif` javascript library. Reader and writer for GIF images.",
+  "contributors": ["yar3333"],
+  "releasenote": "init",
+  "version": "0.9.0",
+  "url": "https://github.com/yar3333/haxe-omggif",
+  "dependencies": {}
+}

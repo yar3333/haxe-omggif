@@ -1,0 +1,12 @@
+--library utest
+--class-path library
+--class-path test\src
+--main Main
+
+--each
+--js dummy.js
+--no-output
+--macro include("omggif")
+
+--next
+--js test\bin\index.js
