@@ -2,8 +2,8 @@
 
 Reader and writer for GIF images.
 
-Original library: https://github.com/deanm/omggif/
-Typescript definitions: https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/omggif/
+ * Original library: https://github.com/deanm/omggif/
+ * Typescript definitions: https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/omggif/
 
 
 ## Install
@@ -32,7 +32,7 @@ trace("height = " + gif.height);
 trace("numFrames = " + gif.numFrames());
 trace("loopCount = " + gif.loopCount()); // 0 = infinity
 
-var data = new Uint8Array(gif.width * gif.height * 4);
+final data = new Uint8Array(gif.width * gif.height * 4);
 gif.decodeAndBlitFrameRGBA(0, data); // read frame 0 as RGBA values
 ```
 

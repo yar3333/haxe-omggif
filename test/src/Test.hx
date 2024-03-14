@@ -17,7 +17,7 @@ class Test extends utest.Test
         Assert.equals(12, gif.numFrames());
         Assert.equals(0, gif.loopCount());
 
-        var data = new Uint8Array(gif.width * gif.height * 4);
+        final data = new Uint8Array(gif.width * gif.height * 4);
         gif.decodeAndBlitFrameRGBA(0, data);
     }
 
