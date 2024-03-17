@@ -1,6 +1,6 @@
 {
   "name": "omggif",
-  "license": "LGPL",
+  "license": "MIT",
   "tags": ["js","extern","gif"],
   "description": "Haxe externs for `omggif` javascript library. Reader and writer for GIF images.",
   "contributors": ["yar3333"],
